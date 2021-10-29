@@ -1,3 +1,5 @@
+// PRACTICE FROM CLASS
+
 const {ApolloServer, gql} = require('apollo-server');
 
 const port = process.env.PORT || 8000; // In order to use the port provided by heroku once deployed
