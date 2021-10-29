@@ -79,9 +79,11 @@ const resolvers = {
 
         addCommentToPost: (parent, args) => {
             const {post, text} = args;
+            console.log(post)
             posts.map(item => {
                 if (item.id === post.id) {
-                    // item.comments.push({}) - currently here
+                    // item.comments.push({text, })
+                    // insert other shenanigans here
                 }
             })
         },

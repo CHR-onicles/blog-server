@@ -31,9 +31,9 @@ const typeDefs = gql`
     }
 
     type Comment {
-        user: User!
-        post: Post
-        text: String
+        userID: Int!
+        text: String!
+        postID: Int!
     }
 
     type Query {

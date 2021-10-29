@@ -1,3 +1,16 @@
+let comments = [
+    {
+        userID: 1001,
+        text: 'Nice blog',
+        postID: 1,
+    },
+    {
+        userID: 1001,
+        text: 'This comment checks if the first comment is there',
+        postID: 1,
+    },
+]
+
 let users = [
     {
         id: 1001,
@@ -31,6 +44,7 @@ let users = [
     },
 ]
 
+
 let posts = [
     {
         id: 1,
@@ -51,18 +65,10 @@ let posts = [
         banner: 'https://images.unsplash.com/photo-1635452066377-6df9b3529b33?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80',
         text: "In the UK, the term lecturer is ambiguous and covers several academic ranks. The key distinction is between permanent/open-ended or temporary/fixed-term lectureships.",
         comments: [
-
+            comments[0],
         ],
         likes: 20,
         dislikes: 50,
-    },
-]
-
-let comments = [
-    {
-        user: users[0],
-        text: "Nice blog",
-        post: posts[0],
     },
 ]
 
